@@ -24,7 +24,6 @@ $L = array(
 'notify_on_delete_label' =>
 'When an entry is <em>deleted</em>?',
 
-
 // -- Skip active user’s notification
 
 'skip_self_info' =>
@@ -33,6 +32,16 @@ $L = array(
 'skip_self_label' =>
 'Should Snitch skip the active user’s notification?',
 
+// -- Weblog Selection
+
+'pick_weblog_title' =>
+'Weblog Assignment',
+
+'pick_weblog_info' =>
+'What weblogs should Snitch run on?',
+
+'weblog_picks_label' =>
+'Weblogs: enter Weblog shortnames seperated by comma',
 
 // -- Templates
 
