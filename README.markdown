@@ -1,4 +1,3 @@
-
 Snitch
 ======================================================================
 
@@ -8,6 +7,15 @@ the email template.
 
 It is developed by [Brandon Kelly](http://brandon-kelly.com/).
 
+Trying to Tweak... Hope I'm not going about this wrong.
+
+Currently I added a string field on CP.  The point is the admin can specify the weblog short_name values he wants Snitch to report on (i.e. if its not listed, it won't notify).  Currently the CP extention loads, you can enable and save settings.  However, its broke somewhere in my poor PHP skills, as when an edit/post/delete occurs, user gets a Server 500 error.
+
+3 functions added to parse the field and produce an array of weblog_id of those specified names, then in the send_notification function, pre-checks that the passed entry data's weblog_id is in the built array of weblog_id's, if not then skip the send... i.e. thus only those weblogs listed should be 'snitched' on.
+
+Ideally the text field would be replaced by a multi-select listing of current weblogs and an array built from that, probably be easier as a simple query gets you both the name and id of the blogs.
+
+Sorry if this is the incorrect way to add to the project, I'm not a programmer, just wanting to try and make this feature happen.
 
 Installation
 ----------------------------------------------------------------------
