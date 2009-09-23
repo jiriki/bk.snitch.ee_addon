@@ -46,6 +46,10 @@ Powered by [LG Addon Updater](http://leevigraham.com/cms-customisation/expressio
 Snitch can call home and check to see if there's a new
 update available.
 
+####  Weblog Assignment  #####################################
+Specify weblogs you want snitch to work against.  Enter
+weblog's short names; each seperated by a comma. Leave blank
+to process all weblogs.
 
 Usage
 ----------------------------------------------------------------------
@@ -105,6 +109,8 @@ Change Log
 - LG Addon Updater support
 - Per-MSM-site settings
 
+####  1.1.0  #########################################################
+- Per weblog settings
 
 Onward
 ----------------------------------------------------------------------
