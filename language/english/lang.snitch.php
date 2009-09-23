@@ -6,6 +6,9 @@ $L = array(
 'donate' =>
 'Support Snitch by donating',
 
+// -- BETA Notice
+'title_notice' =>
+'Beta - Weblog Selection',
 
 // -- Notifications
 
