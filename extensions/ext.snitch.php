@@ -16,6 +16,9 @@
  * the send notification IF edit/add/delete occured in a weblog entered.
  *
  * Also verified force auto-update to be disabled.
+ *
+ * Currently 9/22/09 it doesn't work.  Settings page is setup and successfull enabling, BUT on update/add/delete,
+ * user recieves Server 500.  So I'm guessing logic is broke, probably in how I'm messing with arrays.
  */
 class Snitch
 {
@@ -84,7 +87,6 @@ class Snitch
 	{
 		$this->settings = $this->get_site_settings($settings);
 	}
-	
 	
 	
 	/**
@@ -306,8 +308,4 @@ class Snitch
 // >>>>>>>>>>>>>> ADDING WEBLOG PICKER
 		// Weblog Selection
 
-		           . $DSP->table_open(
-		                                  array(
-		                                      'class'  => 'tableBorder',
-		                                      'border' => '0',
-		          
+		           . $DSP->table_open(%
