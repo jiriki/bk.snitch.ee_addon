@@ -7,9 +7,9 @@ the email template.
 
 It is developed by [Brandon Kelly](http://brandon-kelly.com/).
 
-Trying to Tweak... Hope I'm not going about this wrong.
+I'm trying to tweak so that you can specify certain weblogs for snitch to affect rather than everything. Hope I'm not going about this wrong.
 
-Sorry if this is the incorrect way to add to the project, I'm not a programmer, just wanting to try and make this feature happen.
+Sorry if this is the incorrect way to add to the project, I'm not a programmer, just wanting to try and make this feature happen. (jiriki_san@hotmail.com)
 
 Installation
 ----------------------------------------------------------------------
